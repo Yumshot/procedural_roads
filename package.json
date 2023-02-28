@@ -1,0 +1,26 @@
+{
+  "name": "procedural_roads",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.0",
+    "@types/d3-polygon": "^3.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "@types/d3-array": "^3.0.4",
+    "@types/d3-delaunay": "^6.0.1",
+    "@types/d3-voronoi": "^1.1.9",
+    "d3": "^7.8.2",
+    "d3-delaunay": "^6.0.2",
+    "d3-polygon": "^3.0.1",
+    "d3-voronoi": "^1.1.4"
+  }
+}
